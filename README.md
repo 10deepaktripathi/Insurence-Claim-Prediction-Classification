@@ -9,3 +9,14 @@ I have built a classification modal for this task which I chose after doing comp
 5.	I did hyperparameter tunning using Grid Search to get the best performance/parameter of all models.
 6.	Tried using deep learning modal (MLP) as well.
 7.	Lastly used MLP, which is the best modal as per my analysis, to predict the test dataset provided by the insurance company.
+
+
+Performence Metric Selection
+
+For our case, I think precession is important, which says among total predicted for a category what percentage were correct predictions. This is due to that fact that if our model predicts some one will not claim and later if that persons claims then it will be a big loss for the company.
+
+Recall also seems a good metric which says of total data available for a certain category, what percentage has returned correctly. This is because if there are many people who will not claim but our model is not able to identify them, it will again be a big loss for the company.
+
+Since we want precision and recall both be high, I will check F1-core as well, which is the harmonic mean of both.
+
+I will also use confusion matrix which can give detailed analysis of how model is performing by drawing a comparison between actual and predicted values in form of a matrix.
