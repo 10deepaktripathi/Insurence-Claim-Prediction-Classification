@@ -1,4 +1,4 @@
-company wants a modal that can predict whether an insured will claim or not. To work on this requirement, we have been provided historical data that contains categorical target “claim status” along with other information related to insured persons in the past.  Claim status is equal to True if insured claimed else it is False. 
+A travel insurence company wants a modal that can predict whether an insured will claim or not. To work on this requirement, we have been provided historical data that contains categorical target “claim status” along with other information related to insured persons in the past.  Claim status is equal to True if insured claimed else it is False. 
 I have built a classification modal for this task which I chose after doing comparative study among various other classification modal. Below is a summary on what all I did-
 
 
