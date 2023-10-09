@@ -19,6 +19,6 @@ Recall also seems a good metric which says of total data available for a certain
 
 Since we want precision and recall both be high, I will check F1-core as well, which is the harmonic mean of both.
 
-I will also use confusion matrix which can give detailed analysis of how model is performing by drawing a comparison between actual and predicted values in form of a matrix
+I will also use confusion matrix which can give detailed analysis of how model is performing by drawing a comparison between actual and predicted values in form of a matrix.
 
 
